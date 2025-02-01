@@ -147,6 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.only(top: 8),
                     child: TextFormField(
                       controller: _numberController,
+                      keyboardType: TextInputType.number,
                       decoration: InputDecoration(
                         label: const Text("Number"),
                         hintText: "Your your number",
