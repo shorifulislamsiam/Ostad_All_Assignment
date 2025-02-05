@@ -66,9 +66,9 @@ class _Livetest02State extends State<Livetest02> {
 
                         ),
                         validator: (value){
-                          if(value != null || value!.isNotEmpty){
-                            return null;
-                          }return "Name cann't be null";
+                          if(value == null || value.isEmpty){
+                            return "Name can't be null";
+                          }return null;
                         },
                       ),
                       TextFormField(
@@ -79,9 +79,9 @@ class _Livetest02State extends State<Livetest02> {
 
                         ),
                         validator: (value){
-                          if(value != null || value!.isNotEmpty){
-                            return null;
-                          }return "Age can't be null";
+                          if(value == null || value.isEmpty){
+                            return "Age can't be null";
+                          }return null;
                         },
                       ),
                       TextFormField(
@@ -92,9 +92,9 @@ class _Livetest02State extends State<Livetest02> {
 
                         ),
                         validator: (value){
-                          if(value != null || value!.isNotEmpty){
-                            return null;
-                          }return "salary cann't be null";
+                          if(value == null || value.isEmpty){
+                            return "salary can't be null";
+                          }return null;
                         },
                       ),
                     ],
