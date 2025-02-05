@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }
@@ -184,7 +182,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
           ),
-          if(_list.isNotEmpty)
+          //if(_list.isNotEmpty)
             Expanded(
               child: ListView.builder(
                   itemCount: _list.length,
